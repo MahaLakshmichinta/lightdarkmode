@@ -1,0 +1,54 @@
+/* Write your CSS here */
+body {
+  margin: 0;
+  font-family: 'Roboto';
+}
+.card-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.darkBackgroundMode {
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  height: 30vh;
+  padding: 20px;
+}
+.lightBackgroundMode {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  height: 30vh;
+  padding: 20px;
+}
+.lightHeading {
+  color: #ffffff;
+  height: 35vh;
+  padding: 30px;
+  border: 1px solid #000000;
+  display: flex;
+  flex-direction: column;
+  min-width: 50vh;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+.changeButton {
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 0.5px solid #000000;
+  padding: 15px;
+  color: #000000;
+}
